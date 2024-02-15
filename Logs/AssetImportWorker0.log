@@ -1,0 +1,1190 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 3913 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/antivirus/Documents/Minerva Puzzles
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60433
+Successfully changed project path to: C:/Users/antivirus/Documents/Minerva Puzzles
+C:/Users/antivirus/Documents/Minerva Puzzles
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36280] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 558437744 [EditorId] 558437744 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TA9U18N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36280] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 558437744 [EditorId] 558437744 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TA9U18N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 3607.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/antivirus/Documents/Minerva Puzzles/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     128 MB
+    Driver:   10.18.10.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.160504 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1929 ms
+Refreshing native plugins compatible for Editor in 238.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.756 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8757ms)
+		BeginReloadAssembly (3815ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (4314ms)
+			LoadAssemblies (3808ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (3784ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2461ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (239ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (916ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012905 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 262.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  9.706 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9707ms)
+		BeginReloadAssembly (551ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (8211ms)
+			LoadAssemblies (4582ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (578ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (3002ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (262ms)
+				BeforeProcessingInitializeOnLoad (320ms)
+				ProcessInitializeOnLoadAttributes (2155ms)
+				ProcessInitializeOnLoadMethodAttributes (201ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.92 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (20.4 KB). Loaded Objects now: 4701.
+Memory consumption went from 169.5 MB to 169.5 MB.
+Total: 76.508900 ms (FindLiveObjects: 0.751200 ms CreateObjectMapping: 0.297100 ms MarkObjects: 75.383900 ms  DeleteObjects: 0.074300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47874.135637 seconds.
+  path: Assets/Interface/Creditos.jpg
+  artifactKey: Guid(9c1f90bbab9be2546ad901f75d512d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Interface/Creditos.jpg using Guid(9c1f90bbab9be2546ad901f75d512d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee718f3406188ddf2fcfba31cefc2ff') in 6.612487 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/Inicio.unity
+  artifactKey: Guid(558ff7a6f9026914498e854295cf4537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Inicio.unity using Guid(558ff7a6f9026914498e854295cf4537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ce38072574dcdf88d21feace90c811') in 0.045956 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Interface/1694131473551-Recuperado.psd
+  artifactKey: Guid(2c388f4d7a16d604a9825186eb9918ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Interface/1694131473551-Recuperado.psd using Guid(2c388f4d7a16d604a9825186eb9918ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2032dcac939fb204c71d0d77822d9a') in 3.661621 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 584.913797 seconds.
+  path: Assets/minerva images (1)
+  artifactKey: Guid(8e6193c019f65d843acae6945690b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/minerva images (1) using Guid(8e6193c019f65d843acae6945690b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b4c63dbbbc910030a64daca5ee07eb') in 0.416505 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 934.196102 seconds.
+  path: Assets/minerva images (1)/Interface/Boton_salir2.png
+  artifactKey: Guid(db9c286e74925af4c81bcc264e09bc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/minerva images (1)/Interface/Boton_salir2.png using Guid(db9c286e74925af4c81bcc264e09bc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e407497d452128811bd5406626932605') in 14.051778 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 452.443860 seconds.
+  path: Assets/minerva images (1)/Nueva carpeta/image (1).jpg
+  artifactKey: Guid(840a27170b5dbe54591bbb78459c05f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/minerva images (1)/Nueva carpeta/image (1).jpg using Guid(840a27170b5dbe54591bbb78459c05f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78284180ef5089a196b88ff6fa061c3') in 2.291369 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/minerva images (1)/Nueva carpeta/image (4).jpg
+  artifactKey: Guid(911880532230ad24aae18b7b8f81b50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/minerva images (1)/Nueva carpeta/image (4).jpg using Guid(911880532230ad24aae18b7b8f81b50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad47e45b027dfbc9d57b180ae51c0a8') in 0.890378 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/minerva images (1)/Nueva carpeta/image (3).jpg
+  artifactKey: Guid(82a5dc9d31b8c104e95be186ac8cc22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/minerva images (1)/Nueva carpeta/image (3).jpg using Guid(82a5dc9d31b8c104e95be186ac8cc22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f0be217579e0b47041e441e0107b77') in 1.042984 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/minerva images (1)/Nueva carpeta/image (2).jpg
+  artifactKey: Guid(f5592ee1b459f4244bce71a31530de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/minerva images (1)/Nueva carpeta/image (2).jpg using Guid(f5592ee1b459f4244bce71a31530de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a68d0bb9a4eac3dbeafe1603c2a9431') in 1.186405 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 605.123641 seconds.
+  path: Assets/minerva images (1)/Interface/Boton_salir2.png
+  artifactKey: Guid(db9c286e74925af4c81bcc264e09bc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/minerva images (1)/Interface/Boton_salir2.png using Guid(db9c286e74925af4c81bcc264e09bc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44445f5a7aa53d04f573e220601c87bd') in 1.612912 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 44.230753 seconds.
+  path: Assets/minerva images (1)/Interface/Boton_salir2.png
+  artifactKey: Guid(db9c286e74925af4c81bcc264e09bc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/minerva images (1)/Interface/Boton_salir2.png using Guid(db9c286e74925af4c81bcc264e09bc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94346e7d9361c560c03829c3cacdc43') in 1.871950 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 113.221654 seconds.
+  path: Assets/Scenes/Creditos.unity
+  artifactKey: Guid(1b3f4a44ca0003c47b13c8e5a2ca007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Creditos.unity using Guid(1b3f4a44ca0003c47b13c8e5a2ca007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0b511942ac22cd5cea16b4eb1a9075') in 0.148737 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.480924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 11.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in 58.923 seconds
+Domain Reload Profiling:
+	ReloadAssembly (59051ms)
+		BeginReloadAssembly (35173ms)
+			ExecutionOrderSort (4ms)
+			DisableScriptedObjects (5025ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (22096ms)
+		EndReloadAssembly (18181ms)
+			LoadAssemblies (9102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (7878ms)
+			ReleaseScriptCaches (69ms)
+			RebuildScriptCaches (275ms)
+			SetupLoadedEditorAssemblies (2985ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (379ms)
+				SetLoadedEditorAssemblies (32ms)
+				RefreshPlugins (12ms)
+				BeforeProcessingInitializeOnLoad (316ms)
+				ProcessInitializeOnLoadAttributes (2084ms)
+				ProcessInitializeOnLoadMethodAttributes (144ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4720.
+Memory consumption went from 166.9 MB to 166.9 MB.
+Total: 412.079200 ms (FindLiveObjects: 2.464500 ms CreateObjectMapping: 11.080000 ms MarkObjects: 394.475600 ms  DeleteObjects: 4.056300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 809.708209 seconds.
+  path: Assets/Scenes/Rompecabezas_1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Rompecabezas_1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06624ead5389a5c4aaf9b6a8f215586') in 0.181008 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1679.492029 seconds.
+  path: Assets/Interface/Boton_no.png
+  artifactKey: Guid(d77fcc7570554fc47839332f0fd6a56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Interface/Boton_no.png using Guid(d77fcc7570554fc47839332f0fd6a56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e5c60e51c4311b0e7e443b15383080') in 16.974614 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Interface/Boton_si.png
+  artifactKey: Guid(9ae78c03add989d44b64e7fbfc3ce458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Interface/Boton_si.png using Guid(9ae78c03add989d44b64e7fbfc3ce458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b868dbf5fdd008f74f86a228b2ed9d9') in 0.986445 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 32.200561 seconds.
+  path: Assets/Interface/Boton_si.png
+  artifactKey: Guid(9ae78c03add989d44b64e7fbfc3ce458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Interface/Boton_si.png using Guid(9ae78c03add989d44b64e7fbfc3ce458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8531f8cf408133df0a465a371bbb4bf7') in 0.557536 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 76.771999 seconds.
+  path: Assets/Interface/Boton_si.png
+  artifactKey: Guid(9ae78c03add989d44b64e7fbfc3ce458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Interface/Boton_si.png using Guid(9ae78c03add989d44b64e7fbfc3ce458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bddd925a364320a20d1cc346e4e0d872') in 0.495973 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 72.032409 seconds.
+  path: Assets/Interface/Boton_no.png
+  artifactKey: Guid(d77fcc7570554fc47839332f0fd6a56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Interface/Boton_no.png using Guid(d77fcc7570554fc47839332f0fd6a56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7fcd23ce65d2f172a920f84bd5a2bd') in 0.649051 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.398444 seconds.
+  path: Assets/Interface/Boton_no.png
+  artifactKey: Guid(d77fcc7570554fc47839332f0fd6a56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Interface/Boton_no.png using Guid(d77fcc7570554fc47839332f0fd6a56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7249f9171df1068b9b69edc4f5a9fa97') in 0.464673 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 248.610517 seconds.
+  path: Assets/Interface/Menu_salir.png
+  artifactKey: Guid(4b82c33077470e841ba105295cb3a329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Interface/Menu_salir.png using Guid(4b82c33077470e841ba105295cb3a329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba372a19f804db792c626c0292dbead2') in 1.498601 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 150.822940 seconds.
+  path: Assets/Scenes/Rompecabezas_1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Rompecabezas_1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38430e82bc9a7ae5f9829430b7576c63') in 0.271987 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 106.601210 seconds.
+  path: Assets/Scenes/Inicio.unity
+  artifactKey: Guid(558ff7a6f9026914498e854295cf4537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Inicio.unity using Guid(558ff7a6f9026914498e854295cf4537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f148c94478ef7f3d700dba09836e2d63') in 0.072832 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.304245 seconds.
+  path: Assets/Scenes/Menu_Principal.unity
+  artifactKey: Guid(d1d18a24b329e7f408f76fee09c20d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Menu_Principal.unity using Guid(d1d18a24b329e7f408f76fee09c20d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01b4ff0b48aec2ad408a00b8e52bb43') in 0.085466 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.224999 seconds.
+  path: Assets/Scenes/Rompecabezas_2.unity
+  artifactKey: Guid(88fb8289eb8ac43448267594313381a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Rompecabezas_2.unity using Guid(88fb8289eb8ac43448267594313381a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811fe3728d0b072ce187c22c538d61f8') in 0.175398 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.965515 seconds.
+  path: Assets/Scenes/Rompecabezas_3.unity
+  artifactKey: Guid(e9f3638ee106f3349b2afbdbc762b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Rompecabezas_3.unity using Guid(e9f3638ee106f3349b2afbdbc762b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbca5fd99cf866e85989057b99fd122') in 0.169263 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.170826 seconds.
+  path: Assets/Scenes/Creditos.unity
+  artifactKey: Guid(1b3f4a44ca0003c47b13c8e5a2ca007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Creditos.unity using Guid(1b3f4a44ca0003c47b13c8e5a2ca007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c465cc89fe9b79d7822245359a1e19d3') in 0.320825 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 347.517158 seconds.
+  path: Assets/Scenes/Rompecabezas_2.unity
+  artifactKey: Guid(88fb8289eb8ac43448267594313381a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Rompecabezas_2.unity using Guid(88fb8289eb8ac43448267594313381a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd58aa87268c8741d4cd80dc1fef88a') in 0.033877 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.806021 seconds.
+  path: Assets/Scenes/Rompecabezas_3.unity
+  artifactKey: Guid(e9f3638ee106f3349b2afbdbc762b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Rompecabezas_3.unity using Guid(e9f3638ee106f3349b2afbdbc762b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61c4ada181a785f2e253b93f7f0cc41') in 0.008208 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.832025 seconds.
+  path: Assets/Scenes/Rompecabezas_1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Rompecabezas_1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54708f70bffcc79274a1ed713c47d85') in 0.018662 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 329.181626 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@128x128 - Shadow In.png
+  artifactKey: Guid(e0f09c0ea20c12840a586363422b0e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@128x128 - Shadow In.png using Guid(e0f09c0ea20c12840a586363422b0e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123e243cf38baff99b92729e0336dae9') in 2.290389 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@64x64 - Shadow Out.png
+  artifactKey: Guid(ed7c73b59fcc75c4db4a5ef9be99fe85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@64x64 - Shadow Out.png using Guid(ed7c73b59fcc75c4db4a5ef9be99fe85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21695516a1e85c9382efcac1198eb6a') in 3.613645 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001123 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@512x512 - Shadow Out.png
+  artifactKey: Guid(f3501b3d4bef4174e912e1d589135499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@512x512 - Shadow Out.png using Guid(f3501b3d4bef4174e912e1d589135499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e488b588627c39e453402d2d514596fc') in 3.077326 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Rounded (Large).png
+  artifactKey: Guid(25031ca7ca29ced4aae72055e82c03ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Rounded (Large).png using Guid(25031ca7ca29ced4aae72055e82c03ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc8ed6f38cef32295f8ba6f45f06b84') in 1.431343 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Circle (Medium).png
+  artifactKey: Guid(195e997ec21dc334eb6d343b89d91deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Circle (Medium).png using Guid(195e997ec21dc334eb6d343b89d91deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b52608fac2c84c54d43a4c5df70c25') in 0.280337 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Square (Medium).png
+  artifactKey: Guid(bbf08bc7b45fed146a80ae634c471070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Square (Medium).png using Guid(bbf08bc7b45fed146a80ae634c471070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a872f07671c1dcc05acb1eef046d979d') in 0.520454 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c0618dba56d2a8525a5e25ea60fc79') in 34.160390 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Circle (Small).png
+  artifactKey: Guid(858d7454c43e2ed4d9267ed759ba4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Circle (Small).png using Guid(858d7454c43e2ed4d9267ed759ba4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7594b84e57b495e8533cb77b9f7e5fef') in 0.963844 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@256x256 - Shadow In.png
+  artifactKey: Guid(d9fdfc3b078f5504fa10f5df3359bd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@256x256 - Shadow In.png using Guid(d9fdfc3b078f5504fa10f5df3359bd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce28a2fd27e572fc1ba3f4be6ca98fef') in 0.655623 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001342 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afea461529a85e00a29f2bacd708a279') in 0.621018 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Square (Extra Large).png
+  artifactKey: Guid(b2da962585a91e14c979bef263533864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Square (Extra Large).png using Guid(b2da962585a91e14c979bef263533864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8f9202bc2895072f93e72876388b0b') in 0.858312 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Rounded (Large).png
+  artifactKey: Guid(739af446d4b54094d9788f397b047e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Rounded (Large).png using Guid(739af446d4b54094d9788f397b047e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfa5637b399ac3e23b398bde6180630') in 0.403141 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Circle (Large).png
+  artifactKey: Guid(363bce5569a4aa149ac490b095f931fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Circle (Large).png using Guid(363bce5569a4aa149ac490b095f931fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdac54c7bf872eab269192bf14559b51') in 0.325776 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@512x512 - Stroke 2.png
+  artifactKey: Guid(8a81967fb3fdec14db534c28c5d6e2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@512x512 - Stroke 2.png using Guid(8a81967fb3fdec14db534c28c5d6e2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8da93ceeb8ba65769a6aa4e569cd73') in 0.368030 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Container/Tab Layouts/Bottom Bar View.png
+  artifactKey: Guid(c1c6043280df9f143bd76206371495a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Container/Tab Layouts/Bottom Bar View.png using Guid(c1c6043280df9f143bd76206371495a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e79a606283f2911ce992f67521ebd65') in 3.020649 seconds 
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Rounded (Small).png
+  artifactKey: Guid(7c865f2a303454d40bd1932a3b07dd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Rounded (Small).png using Guid(7c865f2a303454d40bd1932a3b07dd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85ceca7e818e63f0b41b14a39de6664') in 0.354535 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@32x32 - Shadow Out.png
+  artifactKey: Guid(b989ade4b66ec394b967c21f6ac38f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@32x32 - Shadow Out.png using Guid(b989ade4b66ec394b967c21f6ac38f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73877d124c5b31e889f55b4d50a4ad2') in 0.635018 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Square (Extra Large).png
+  artifactKey: Guid(b216a9da6e8ebd348ad7fa5ab0bdde60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Square (Extra Large).png using Guid(b216a9da6e8ebd348ad7fa5ab0bdde60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05aae78a424749f65dee56c1c39b697') in 0.519618 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Circle (Extra Large).png
+  artifactKey: Guid(490773c7fbad7c14e9d5db082c2ccf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Circle (Extra Large).png using Guid(490773c7fbad7c14e9d5db082c2ccf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0a4d8dae0413cb6ecd66139fd20023') in 0.344956 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Rounded (Medium).png
+  artifactKey: Guid(963a1b01ec9dcd147b091c9171156d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Rounded (Medium).png using Guid(963a1b01ec9dcd147b091c9171156d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56eb71a5ddb621da813bed84292ee4d') in 0.530663 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Square (Small).png
+  artifactKey: Guid(dea8a379a2be6204eb5d59d1c3cc9ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Square (Small).png using Guid(dea8a379a2be6204eb5d59d1c3cc9ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22aa7503db89ab74fbffad8f1f6ba377') in 0.242015 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Circle (Medium).png
+  artifactKey: Guid(5e90509615b532c4cac0fe253cb453f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Circle (Medium).png using Guid(5e90509615b532c4cac0fe253cb453f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6321702378758d4bc75792e29d143594') in 0.517275 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Circle (Small).png
+  artifactKey: Guid(1b9ffb3bc5ee78343a8e3825269cd287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Circle (Small).png using Guid(1b9ffb3bc5ee78343a8e3825269cd287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5a469eecbf63a945e0f8f9d50b529a') in 1.257132 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Rounded (Small).png
+  artifactKey: Guid(abd3f4fb152428e4b8f9dbf9d6a8594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Rounded (Small).png using Guid(abd3f4fb152428e4b8f9dbf9d6a8594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ee6fa289f8a7b8802145dd70f25e89') in 0.414778 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@64x64 - Shadow In.png
+  artifactKey: Guid(a3724b1733744434b8a02c582fe1eecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@64x64 - Shadow In.png using Guid(a3724b1733744434b8a02c582fe1eecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68542bf76cbba527bd4b216f9b42157b') in 0.378355 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Rounded (Medium).png
+  artifactKey: Guid(a81b4d29dc68a264d924d9544665c596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Rounded (Medium).png using Guid(a81b4d29dc68a264d924d9544665c596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64b4b494b22304b0efbac9e3cf37cf5') in 0.450398 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@64x64 - Stroke 4.png
+  artifactKey: Guid(bb079d9c8fd032b44b1ae79b7c357a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@64x64 - Stroke 4.png using Guid(bb079d9c8fd032b44b1ae79b7c357a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddc9dd1310db8c2f9a6987d232a7ac1') in 0.523944 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Circle (Medium).png
+  artifactKey: Guid(85c829a92e32bc74aae0786983eaf683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Circle (Medium).png using Guid(85c829a92e32bc74aae0786983eaf683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3666f8c196a432004833e9630999e0e') in 0.339726 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@96x96 - Stroke 4.png
+  artifactKey: Guid(bc751f493a202fb4bb8c2d74c9577ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@96x96 - Stroke 4.png using Guid(bc751f493a202fb4bb8c2d74c9577ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7995c1dc891e5d5d303e8a9471556d65') in 0.550249 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@32x32 - Stroke 4.png
+  artifactKey: Guid(6c1c96522b33b3a4381c6a195275f126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@32x32 - Stroke 4.png using Guid(6c1c96522b33b3a4381c6a195275f126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fac29a747767a4c08c23d478d8ef6e9') in 0.450807 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Rounded (Small).png
+  artifactKey: Guid(e1e6447ab0dc62242ba54df85779d608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Rounded (Small).png using Guid(e1e6447ab0dc62242ba54df85779d608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865f424b9e37e922bcdf913cfe53fd5f') in 0.260714 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Circle (Small).png
+  artifactKey: Guid(95b70f8f91624634690d31c7f158e6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Circle (Small).png using Guid(95b70f8f91624634690d31c7f158e6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c39bf9b4c4dbbcd470bcaaa8f9c1be5') in 0.339987 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Layouts/Layout Portrait/Contact Form Out Layout.png
+  artifactKey: Guid(74519a42368a6714c960a4afb7759e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Layouts/Layout Portrait/Contact Form Out Layout.png using Guid(74519a42368a6714c960a4afb7759e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d3f18d8d940e1458152e53ea9c9318') in 1.550368 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@256x256 - Stroke 2.png
+  artifactKey: Guid(cb6102f1d09965049ac233b3452ad890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@256x256 - Stroke 2.png using Guid(cb6102f1d09965049ac233b3452ad890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db800691f00e0342b751737158412c1a') in 0.380614 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@96x96 - Shadow Out.png
+  artifactKey: Guid(15efe286b9569da4f9ba19307dc227eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@96x96 - Shadow Out.png using Guid(15efe286b9569da4f9ba19307dc227eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0006858af5317bb3ed2131a088d7a8d') in 0.599932 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@512x512 - Shadow In.png
+  artifactKey: Guid(84e08bbbcb52cd240849fe8fff6323ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@512x512 - Shadow In.png using Guid(84e08bbbcb52cd240849fe8fff6323ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f263c46d5248ca25191074ec414be334') in 0.904253 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Iconbox/Card IconBox (Medium).png
+  artifactKey: Guid(5629ab26d05623942bb096cfbecf2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Iconbox/Card IconBox (Medium).png using Guid(5629ab26d05623942bb096cfbecf2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c597bac62ff5a176d33a4fe6456bc1') in 1.322189 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@128x128 - Stroke 4.png
+  artifactKey: Guid(977c6b7d5bbe58640b803a4fbda4e680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@128x128 - Stroke 4.png using Guid(977c6b7d5bbe58640b803a4fbda4e680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f017a67e1dc02a36708e893d3e1bdd27') in 0.654380 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Circle (Extra Large).png
+  artifactKey: Guid(2444d622f62bff04697522c08953d370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Circle (Extra Large).png using Guid(2444d622f62bff04697522c08953d370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878871cd47360fad39d50fc846e155a8') in 0.482768 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Container/Views/View Portrait/Contact Form In View.png
+  artifactKey: Guid(31ab2d4e3c6a2224fb747e533ba03a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Container/Views/View Portrait/Contact Form In View.png using Guid(31ab2d4e3c6a2224fb747e533ba03a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6318b177a96d36ba0734e0c0c9a61f65') in 1.716419 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Circle (Small).png
+  artifactKey: Guid(2ec3c67a88219474bb7d84840c5f88ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Circle (Small).png using Guid(2ec3c67a88219474bb7d84840c5f88ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa6034d68bc4ad19d0b9cd9bc11bec9') in 0.433171 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@256x256 - Shadow Out.png
+  artifactKey: Guid(4fc5c9fd9f6cf0b4b8b0b65328ef347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@256x256 - Shadow Out.png using Guid(4fc5c9fd9f6cf0b4b8b0b65328ef347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a3fa1667dd9baf9735a2a1361218a9') in 0.981738 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Square (Large).png
+  artifactKey: Guid(d0b463e71a39c6e4897d8da50503bbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Square (Large).png using Guid(d0b463e71a39c6e4897d8da50503bbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43bef36c8775f813b22a86e5c621942') in 0.978914 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@32x32 - Stroke 2.png
+  artifactKey: Guid(b51081d52f45bfd4eaf71858ddbfcef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@32x32 - Stroke 2.png using Guid(b51081d52f45bfd4eaf71858ddbfcef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dd78c1e5da7cfca194e415acd1f7f1') in 0.440129 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Rounded (Large).png
+  artifactKey: Guid(856c876d1e24fcf44b42f4ae001ca1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Rounded (Large).png using Guid(856c876d1e24fcf44b42f4ae001ca1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a920e443dbfb32f2c2e99e6efa6257') in 0.614223 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Circle (Extra Large).png
+  artifactKey: Guid(9cecab47324279e4483a61ed55844dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Circle (Extra Large).png using Guid(9cecab47324279e4483a61ed55844dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66016f99625caf75236300d53f789bc') in 0.974298 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Square (Medium).png
+  artifactKey: Guid(60a69043c932c4c459b4b7d101f3c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Square (Medium).png using Guid(60a69043c932c4c459b4b7d101f3c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd52d127b747202610fdde4e36333e9f') in 0.475366 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@256x256 - Filled.png
+  artifactKey: Guid(27c88ef2f133f7546ad5711faf619ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@256x256 - Filled.png using Guid(27c88ef2f133f7546ad5711faf619ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880478fdde26c428a6b1f10e9a53c9f9') in 0.287583 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Fonts/FjallaOne-Regular.ttf
+  artifactKey: Guid(5e2bdb01da89bfe4982d98c1a4ceedfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Fonts/FjallaOne-Regular.ttf using Guid(5e2bdb01da89bfe4982d98c1a4ceedfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3bb09ab54c917f7765b5d809fceb9d') in 0.230401 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d161fd7d9873027b1d512af83be36d') in 0.256699 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@64x64 - Stroke 2.png
+  artifactKey: Guid(f701ffdfe545b7648bbc74ea6ac5dfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@64x64 - Stroke 2.png using Guid(f701ffdfe545b7648bbc74ea6ac5dfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c357e232cc64529506d36ecc0cb172') in 0.192399 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Layouts/Layout Landscape/Contact Form In Layout.png
+  artifactKey: Guid(7db986375fe8d4941abff708b48d3425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Layouts/Layout Landscape/Contact Form In Layout.png using Guid(7db986375fe8d4941abff708b48d3425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2de80029588d79ade8b71c94358ff7') in 1.213492 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Rounded (Small).png
+  artifactKey: Guid(b8e2e79baff0229488eec2a1c5f814d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Rounded (Small).png using Guid(b8e2e79baff0229488eec2a1c5f814d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77ac2fed571a87493aff268e291e097') in 0.229449 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000974 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@128x128 - Filled.png
+  artifactKey: Guid(1931a2563dbbf6d48be4a6985593fa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@128x128 - Filled.png using Guid(1931a2563dbbf6d48be4a6985593fa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b52be9df0b1823f6e09acf39cd93ef') in 0.709808 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Iconbox/Card IconBox (Extra Large).png
+  artifactKey: Guid(10f37b65dd99e2e459cc11a905c0091e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Iconbox/Card IconBox (Extra Large).png using Guid(10f37b65dd99e2e459cc11a905c0091e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90851597213f434f0eb0e8520fce45e3') in 1.629751 seconds 
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Circle (Large).png
+  artifactKey: Guid(7f35ab3d1d1fead40bb44e68754e175d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Circle (Large).png using Guid(7f35ab3d1d1fead40bb44e68754e175d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd7683971eb8b1f5e9cbb6f0b24f0ed') in 0.203734 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Rounded (Extra Large).png
+  artifactKey: Guid(0561f0740418bab4f895b585e6a5832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Rounded (Extra Large).png using Guid(0561f0740418bab4f895b585e6a5832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712e306078039374f30bc98fe89be6ae') in 0.268594 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Square (Extra Large).png
+  artifactKey: Guid(b0162375d66f97b4db3d397cefcbed26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Square (Extra Large).png using Guid(b0162375d66f97b4db3d397cefcbed26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aad275a0456aee474955ecdbc31143b') in 0.432807 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Circle (Extra Large).png
+  artifactKey: Guid(830da8c749e071d44b64e3be89a1add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Circle (Extra Large).png using Guid(830da8c749e071d44b64e3be89a1add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6788d2316b5f6cc7b9d29f792a22a6a6') in 0.243343 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Circle (Large).png
+  artifactKey: Guid(f4716996fb4bc664b86fbe0742217aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Circle (Large).png using Guid(f4716996fb4bc664b86fbe0742217aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d365f65cc36f398e512cf2b04916eb') in 0.273492 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Rounded (Extra Large).png
+  artifactKey: Guid(869a16f1c5d45084da577c77e5b23657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Rounded (Extra Large).png using Guid(869a16f1c5d45084da577c77e5b23657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ddda196f2e65c482d52f91f671a54c') in 0.219087 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@512x512 - Filled.png
+  artifactKey: Guid(bd15a982dc49fa34789d054eadab2db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@512x512 - Filled.png using Guid(bd15a982dc49fa34789d054eadab2db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d713929cee649bc600740f94c4efac') in 0.758116 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Iconbox/Card IconBox (Large).png
+  artifactKey: Guid(e7ef7a24720990243a69e612cd90466c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Iconbox/Card IconBox (Large).png using Guid(e7ef7a24720990243a69e612cd90466c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043c7c29e9c55e243ab045b3fbd899f5') in 1.154013 seconds 
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Square (Large).png
+  artifactKey: Guid(edf85c145d4d1fa42b7a8d83e18c6e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Square (Large).png using Guid(edf85c145d4d1fa42b7a8d83e18c6e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467772389f12f6a14d1718e882606eb2') in 0.252036 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Rounded (Large).png
+  artifactKey: Guid(9040f201b6bc15b48a163f767dc2b645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Rounded (Large).png using Guid(9040f201b6bc15b48a163f767dc2b645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d005923dafe85bc6dc09b9461900df') in 0.334794 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Square (Small).png
+  artifactKey: Guid(7dcb4b2bdbab3e34f851a733af8847b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Square (Small).png using Guid(7dcb4b2bdbab3e34f851a733af8847b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee460c2b8315218fcbbe2798dbfca5e') in 0.195304 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Container/Views/View Landscape/Contact Form In View.png
+  artifactKey: Guid(ca5c5d949889e1840b295cf3047fd748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Container/Views/View Landscape/Contact Form In View.png using Guid(ca5c5d949889e1840b295cf3047fd748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1dbfc388296573d7a686236de112bb') in 1.045660 seconds 
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Doozy/_UI Packs/_Common/Fonts/Ubuntu-Bold.ttf
+  artifactKey: Guid(74e3ac9ad78c48d47a2d3d0fcc88dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/_Common/Fonts/Ubuntu-Bold.ttf using Guid(74e3ac9ad78c48d47a2d3d0fcc88dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594c9ed6fb6e1c384642dfad3d87a58f') in 0.683573 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Selectable Wide (Large).png
+  artifactKey: Guid(ad82a2e63cecf0c4dba4a49ab93edb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Selectable Wide (Large).png using Guid(ad82a2e63cecf0c4dba4a49ab93edb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89db93b004220d90fc9d19b969c5e05') in 1.894261 seconds 
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@96x96 - Filled.png
+  artifactKey: Guid(7a7dd72ea4027a34991f78e071f70106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@96x96 - Filled.png using Guid(7a7dd72ea4027a34991f78e071f70106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04813a9c7e4dbb01dc63f123e04a5d31') in 0.238309 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@512x512 - Stroke 4.png
+  artifactKey: Guid(016d7843ac248d846906aab6415375a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@512x512 - Stroke 4.png using Guid(016d7843ac248d846906aab6415375a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70150c5753203dfc3f217166145b9c79') in 0.341424 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Rounded (Medium).png
+  artifactKey: Guid(981647f9e2a5ec041bf4cf7f56dca13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Rounded (Medium).png using Guid(981647f9e2a5ec041bf4cf7f56dca13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006848f74f77ca1cae0c21649b483823') in 0.442397 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@32x32 - Shadow In.png
+  artifactKey: Guid(43d2de5d5e51a0e44acff9d14f8e079e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@32x32 - Shadow In.png using Guid(43d2de5d5e51a0e44acff9d14f8e079e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d64887adb4e749777f5baea7e1a287') in 0.561237 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Circle (Medium).png
+  artifactKey: Guid(34067c0a65af4dd498826d7589256b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Circle (Medium).png using Guid(34067c0a65af4dd498826d7589256b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df77d48bad841f46f07dfa2f1394ca34') in 0.313710 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001305 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@128x128 - Stroke 2.png
+  artifactKey: Guid(c429a6e9072763142a465b725f8a3fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@128x128 - Stroke 2.png using Guid(c429a6e9072763142a465b725f8a3fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7183084cb9b074bb49dd61249e7e1912') in 0.201320 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@64x64 - Filled.png
+  artifactKey: Guid(84685304fb9e02a439b9ce670af5a551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@64x64 - Filled.png using Guid(84685304fb9e02a439b9ce670af5a551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f562426843765d7ac51a9b8120d533c') in 0.196215 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Square (Small).png
+  artifactKey: Guid(f79bd02207892cc4bbd317af5ef12639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Square (Small).png using Guid(f79bd02207892cc4bbd317af5ef12639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05effba50481ec00a7f841f79fd15a0c') in 0.302510 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Container/Views/View/Bottom Bar View.png
+  artifactKey: Guid(a4387b766004cfd4ab778d088a4c6d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Container/Views/View/Bottom Bar View.png using Guid(a4387b766004cfd4ab778d088a4c6d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19af3cf94a9c16714077e2c40342fee6') in 1.023531 seconds 
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Layouts/Layout Portrait/Contact Form In Layout.png
+  artifactKey: Guid(47eff616a7718bd4d96c05e437de761f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Layouts/Layout Portrait/Contact Form In Layout.png using Guid(47eff616a7718bd4d96c05e437de761f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1361c3f0dffb86cb865645868bf2d6b') in 1.442953 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@96x96 - Shadow In.png
+  artifactKey: Guid(bf0e5d8d5b4e8bb40ba5d6f8a605be09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@96x96 - Shadow In.png using Guid(bf0e5d8d5b4e8bb40ba5d6f8a605be09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2addbbad8802f77f72b39c68431ad45') in 0.481299 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Rounded (Medium).png
+  artifactKey: Guid(ee4b2903969d64744ab973ea2ff2d81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Rounded (Medium).png using Guid(ee4b2903969d64744ab973ea2ff2d81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f5b96e82d26ba1e8e3bd15805318f5') in 0.248046 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Square (Extra Large).png
+  artifactKey: Guid(5f5481c7575ef5340a4b8e103605c2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Square (Extra Large).png using Guid(5f5481c7575ef5340a4b8e103605c2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2097981558bef78efa1d19c8a7e8ce') in 0.686671 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@96x96 - Stroke 2.png
+  artifactKey: Guid(0469346faf902e24688a1fecc2a92d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@96x96 - Stroke 2.png using Guid(0469346faf902e24688a1fecc2a92d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efd1e2ce2a98b1d2a23839d7382e8cb') in 0.183444 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Square (Large).png
+  artifactKey: Guid(fa7e67d3563d88b448d807cd26b22824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Square (Large).png using Guid(fa7e67d3563d88b448d807cd26b22824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f88128b99a6a2d703c55cfbf0eaa33') in 0.549999 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Square (Large).png
+  artifactKey: Guid(c62bd3435b0a64a41a2366ea6937f235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Image Square (Large).png using Guid(c62bd3435b0a64a41a2366ea6937f235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a5ce472eef08c2edd7c5ab4d6d2772') in 0.288184 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@256x256 - Stroke 4.png
+  artifactKey: Guid(b0e9b89d9d2b7444cb42fe71c2e6314f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@256x256 - Stroke 4.png using Guid(b0e9b89d9d2b7444cb42fe71c2e6314f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3801143ed73252d9b15f82398ca2698') in 0.572594 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@128x128 - Shadow Out.png
+  artifactKey: Guid(333b47e2b079f4040ba42fddf089f9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/Sprites/Circles/Circle@128x128 - Shadow Out.png using Guid(333b47e2b079f4040ba42fddf089f9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4ed43fac61621d4f6ac717042f3dcb') in 0.391204 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Rounded (Extra Large).png
+  artifactKey: Guid(8904f06dc1e94c94786264bc33b113cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Image Rounded (Extra Large).png using Guid(8904f06dc1e94c94786264bc33b113cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cb3cffd0d552b212a7be81adf8861d') in 0.187977 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Circle (Large).png
+  artifactKey: Guid(98b3daea4b6e4474b8ff3fef88439487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Circle (Large).png using Guid(98b3daea4b6e4474b8ff3fef88439487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079fd267f9c2fe83a49862487fddca13') in 0.291514 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Square (Medium).png
+  artifactKey: Guid(2d78f6183b3e68445ba1f93f98fa267c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card In/Card In Square (Medium).png using Guid(2d78f6183b3e68445ba1f93f98fa267c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250279cb73dfc282432d68be7c61fd43') in 0.373356 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000863 seconds.
+  path: Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Rounded (Extra Large).png
+  artifactKey: Guid(76767207d1c5b9646acb116ea648cca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Doozy/_UI Packs/Neumorph One/UIMenu/Previews/Content/Cards/Card Out/Card Out Rounded (Extra Large).png using Guid(76767207d1c5b9646acb116ea648cca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ae3208f1ca97526435a200abc6abb3') in 0.418586 seconds 
+Number of asset objects unloaded after import = 2

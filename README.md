@@ -11,7 +11,7 @@ Para la instalación y ejecución de este proyecto en unity, solo se debe de cre
 Dispositivos móviles y windows.
 
 ## Desarrolador
-Juan MAnuel Grandet Duarte.
+Juan Manuel Grandet Duarte.
 
 ## Estado del proyecto y recomendaciones para futuras actualizaciones o cambios
 El proyecto está terminado, pero como recomendación para futuros cambios o actualizaciones:

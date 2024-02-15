@@ -1,4 +1,4 @@
-##Ingenigma puzzles
+## Ingenigma puzzles
 
 ## Descripción
 Es un juego que consta de 8 rompecabezas, cada uno emplea diferentes imagenes correspondientes a una de las diferentes sedes de la universidad de antioquia, el usuario tiene la posibilidad de alternar entre tres niveles de  dificultad (4x4, 5x5 y 10x10).
